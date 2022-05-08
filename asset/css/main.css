@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.Gen {
+    display: none;
+}
+
+#spanMask {
+    letter-spacing: 10px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: goldenrod
+}
+
+
+
+
+.fail7 {
+    width: 600px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail1-6 {
+    width: 500px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-6 {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-5 {
+    width: 400px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-5 {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-4 {
+    width: 300px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-4 {
+    width: 300px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-3 {
+    width: 200px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-3 {
+    width: 400px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-2 {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-2 {
+    width: 500px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-1 {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-1 {
+    width: 550px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barFail1-0 {
+    width: 0px;
+    height: 10px;
+    background-color: rgb(113, 186, 4);
+}
+
+.barFail2-0 {
+    width: 600px;
+    height: 10px;
+    background-color: rgb(221, 5, 5);
+}
+
+.barOfLife {
+    display: flex;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(64, 20, 73, 0.5) 0%, rgba(106, 108, 108, 0.7) 50%), url('../img/493639.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#HeroFind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    color: goldenrod;
+}
+
+#Life {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(117, 225, 117);
+}
+
+#keyboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result,
+#score {
+    font-size: 2rem;
+    color: rgb(255, 215, 0);
+    font-weight: 600;
+}
+
+#WordToFind {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#imgPendu {
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+}
+
+
+.imgFail1 {
+    transition-duration: 800ms, linear;
+    transform: translate(-30px, -50px);
+    -webkit-transform: translate(-30px, -50px);
+    -moz-transform: translate(-30px, -50px);
+    -ms-transform: translate(-30px, -50px);
+    -o-transform: translate(-30px, -50px);
+}
+
+.imgFail2 {
+
+    transform: translate(-230px, -50px);
+    -webkit-transform: translate(-230px, -50px);
+    -moz-transform: translate(-230px, -50px);
+    -ms-transform: translate(-230px, -50px);
+    -o-transform: translate(-230px, -50px);
+}
+
+.imgFail3 {
+    transition-duration: 800ms, linear;
+    transform: translate(-440px, -50px);
+    -webkit-transform: translate(-440px, -50px);
+    -moz-transform: translate(-440px, -50px);
+    -ms-transform: translate(-440px, -50px);
+    -o-transform: translate(-440px, -50px);
+}
+
+.imgFail4 {
+    transition-duration: 800ms, linear;
+    transform: translate(-660px, -50px);
+    -webkit-transform: translate(-660px, -50px);
+    -moz-transform: translate(-660px, -50px);
+    -ms-transform: translate(-660px, -50px);
+    -o-transform: translate(-660px, -50px);
+}
+
+.imgFail5 {
+    transition-duration: 800ms, linear;
+    transform: translate(-20px, -280px);
+    -webkit-transform: translate(-20px, -280px);
+    -moz-transform: translate(-20px, -280px);
+    -ms-transform: translate(-20px, -280px);
+    -o-transform: translate(-20px, -280px);
+}
+
+.imgFail6 {
+    transition-duration: 800ms, linear;
+    transform: translate(-230px, -280px);
+    -webkit-transform: translate(-230px, -280px);
+    -moz-transform: translate(-230px, -280px);
+    -ms-transform: translate(-230px, -280px);
+    -o-transform: translate(-230px, -280px);
+}
+
+.imgFail7 {
+    transition-duration: 800ms, linear;
+    transform: translate(-430px, -280px);
+    -webkit-transform: translate(-430px, -280px);
+    -moz-transform: translate(-430px, -280px);
+    -ms-transform: translate(-430px, -280px);
+    -o-transform: translate(-430px, -280px);
+}
+
+.imgFail {
+    transition-duration: 800ms, linear;
+    transform: translate(-670px, -290px);
+    -webkit-transform: translate(-670px, -290px);
+    -moz-transform: translate(-670px, -290px);
+    -ms-transform: translate(-670px, -290px);
+    -o-transform: translate(-670px, -290px);
+
+}
+
+#Music {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    text-transform: lowercase;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.vis {
+    background-image: url('../img/giphy.gif');
+    height: 300px;
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.visbtn {
+    color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.visGen {
+    padding: 2rem, 3rem;
+    letter-spacing: 3px;
+}
+
+.visWin {
+    background-image: url('../img/success-kid-hells-yes.gif');
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
